@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body { margin: 0; font-family: Helvetica, Arial, sans-serif; background: #F8F9FA; padding: 24px; }
+  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; max-width: 760px; }
+  .col { background: #FFFFFF; border: 1px solid #DDE3E8; border-radius: 10px; padding: 20px; }
+  h3 { margin: 0 0 12px 0; font-size: 12px; font-weight: 700; letter-spacing: 1.5px;
+    color: #2E5A87; text-transform: uppercase; }
+  p { margin: 0; font-size: 14px; line-height: 2; color: #3D4E5C; }
+  @media (max-width: 560px) { .grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+  <div class="grid">
+    <div class="col">
+      <h3>Lenguajes</h3>
+      <p>Python<br>R<br>SQL</p>
+    </div>
+    <div class="col">
+      <h3>Herramientas</h3>
+      <p>Power BI<br>Excel intermedio<br>IA´s</p>
+    </div>
+    <div class="col">
+      <h3>Metodologías</h3>
+      <p>Machine Learning<br>Análisis del sector publico<br>
+    </div>
+  </div>
+</body>
+</html>
